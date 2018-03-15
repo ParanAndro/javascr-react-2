@@ -60,7 +60,7 @@ var Movie = React.createClass({
 	},
 	render: function() {
 		return ( 
-			React.createElement('div', {},
+			React.createElement('li', {},
 				React.createElement(MovieTitle, {title: this.props.movie.title}),
 				React.createElement(MovieDescription, {desc: this.props.movie.desc}),
 				React.createElement('img', {src: this.props.movie.img})
